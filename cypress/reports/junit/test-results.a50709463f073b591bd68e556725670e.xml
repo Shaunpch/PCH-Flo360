@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-23T11:09:51" tests="0" file="cypress\integration\FLO360\Adhoc\Timesheets.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Daily activities - Automated" timestamp="2020-11-23T11:09:51" tests="1" time="0.0000" failures="0">
+  </testsuite>
+</testsuites>

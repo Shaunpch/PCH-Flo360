@@ -1,0 +1,13 @@
+{
+    "projectId" : "oqskwc",
+    "chromeWebSecurity" : false,
+    "baseUrl":"https://flo360.pchqas.com/home",
+    "integrationFolder":"cypress/integration/FLO360",
+    "pageLoadTimeout": 5000000,
+    "reporter": "mocha-junit-reporter",
+    "reporterOptions": {
+    "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+    "testsuitesTitle": false,
+    "retries":2
+}
+}

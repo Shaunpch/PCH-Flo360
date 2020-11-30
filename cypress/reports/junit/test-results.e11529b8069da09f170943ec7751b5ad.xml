@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.3590" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-25T10:20:16" tests="0" file="cypress\integration\FLO360\Delivery Orders\DeliveryOrders.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Delivery Order scenarios" timestamp="2020-11-25T10:20:16" tests="1" time="32.3590" failures="0">
+    <testcase name="Delivery Order scenarios Testcase name" time="32.3590" classname="Testcase name">
+    </testcase>
+  </testsuite>
+</testsuites>

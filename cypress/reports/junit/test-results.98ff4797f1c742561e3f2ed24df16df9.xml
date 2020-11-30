@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2020-11-16T12:10:28" tests="0" file="cypress\integration\FLO360\Delivery Orders\DeliveryOrders.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Delivery Order scenarios" timestamp="2020-11-16T12:10:28" tests="1" time="0.0000" failures="1">
+    <testcase name="Delivery Order scenarios &quot;before all&quot; hook for &quot;Testcase name&quot;" time="0.0000" classname="&quot;before all&quot; hook for &quot;Testcase name&quot;">
+      <failure message="Timed out after waiting `10000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `10000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `Delivery Order scenarios`" type="CypressError"><![CDATA[CypressError: Timed out after waiting `10000ms` for your remote page to load.
+
+Your page did not fire its `load` event within `10000ms`.
+
+You can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.
+
+Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+
+When this `load` event occurs, Cypress will continue running commands.
+
+Because this error occurred during a `before all` hook we are skipping the remaining tests in the current suite: `Delivery Order scenarios`
+    at timedOutWaitingForPageLoad (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:156855:13)
+    at https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:157843:16
+    at tryCatcher (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:10325:23)
+    at https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:5447:41
+    at tryCatcher (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:10325:23)
+    at Promise._settlePromiseFromHandler (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:8260:31)
+    at Promise._settlePromise (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:8317:18)
+    at Promise._settlePromise0 (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:8362:10)
+    at Promise._settlePromises (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:8438:18)
+    at _drainQueueStep (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:5032:12)
+    at _drainQueue (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:5025:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:5041:5)
+    at Async.drainQueues (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:4911:14)
+From Your Spec Code:
+    at Context.eval (eval at <anonymous> (https://flo360.pchqas.com/__cypress/runner/cypress_runner.js:176384:16), <anonymous>:136:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

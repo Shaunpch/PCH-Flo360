@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0370" tests="4" failures="3">
+  <testsuite name="Root Suite" timestamp="2020-11-16T12:05:52" tests="0" file="cypress\integration\FLO360\Home\HomePage.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Homepage validation tests" timestamp="2020-11-16T12:05:52" tests="4" time="0.0370" failures="3">
+    <testcase name="Homepage validation tests Positive test - Company name is displayed on Home page" time="0.0000" classname="Positive test - Company name is displayed on Home page">
+      <failure message="Timed out retrying: Expected to find element: `.MuiButtonBase-root`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `.MuiButtonBase-root`, but never found it.
+    at Context.eval (https://flo360.pchqas.com/__cypress/tests?p=cypress\integration\FLO360\Home\HomePage.js:129:10)]]></failure>
+    </testcase>
+    <testcase name="Homepage validation tests Postive test - Welcome message is displayed with username" time="0.0000" classname="Postive test - Welcome message is displayed with username">
+      <failure message="Timed out retrying: Expected to find element: `:nth-child(1) &gt; .jss105`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `:nth-child(1) > .jss105`, but never found it.
+    at Context.eval (https://flo360.pchqas.com/__cypress/tests?p=cypress\integration\FLO360\Home\HomePage.js:139:41)]]></failure>
+    </testcase>
+    <testcase name="Homepage validation tests Positive test - All modules are accessible for current user" time="0.0000" classname="Positive test - All modules are accessible for current user">
+      <failure message="Timed out retrying: Expected to find element: `:nth-child(2) &gt; .MuiGrid-container`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying: Expected to find element: `:nth-child(2) > .MuiGrid-container`, but never found it.
+    at Context.eval (https://flo360.pchqas.com/__cypress/tests?p=cypress\integration\FLO360\Home\HomePage.js:146:52)]]></failure>
+    </testcase>
+    <testcase name="Homepage validation tests Positive test - User can successfully navigate to each module" time="0.0370" classname="Positive test - User can successfully navigate to each module">
+    </testcase>
+  </testsuite>
+</testsuites>

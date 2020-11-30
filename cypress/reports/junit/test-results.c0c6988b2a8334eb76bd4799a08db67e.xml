@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.9960" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-25T10:17:39" tests="0" file="cypress\integration\FLO360\Finance\Finance.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Finance Scenarios" timestamp="2020-11-25T10:17:39" tests="1" time="12.9960" failures="0">
+    <testcase name="Finance Scenarios testcase name" time="12.9960" classname="testcase name">
+    </testcase>
+  </testsuite>
+</testsuites>
